@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/qor/middlewares"
-	"github.com/qor/qor/utils"
-	"github.com/qor/session"
-	"github.com/qor/session/manager"
+	"github.com/kisrobot/middlewares"
+	"github.com/kisrobot/qor/utils"
+	"github.com/kisrobot/session"
+	"github.com/kisrobot/session/manager"
 )
 
 var returnToKey utils.ContextKey = "redirect_back_return_to"
